@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ h1{
+	top: 10px;
+	color: #228;
+	position: absolute;
+	left: ;
+	font-size: 3.5em;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: radial-gradient(rgb(228, 233, 236),rgb(94, 192, 245)) ;
+}
+
+.container.fondo{
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(img/ok.jpg);
+	background-size: cover;
+}
+
+.carta {
+	height: 250px;
+	width: 150px;
+	background-image: url(img/sad.jpg);
+	background-size: cover;
+	border-radius: 5%;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+}
+
+.carta.super{
+	display: flex;
+	height: 342px;
+	width: 245px;
+	background-image: url(img/hy.jpg);
+	background-size: cover;
+	border-radius: 5%;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+   
+
+}
+
+@media (min-width: 700px) {
+	 h1{
+	top: 10px;
+	color: #228;
+	position: absolute;
+	font-size: 4.5em;
+
+  }
+  .container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: radial-gradient(rgb(228, 233, 236),rgb(94, 192, 245)) ;
+}
+
+.container.fondo{
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(win.gif);
+	background-size: cover;
+}
+
+.carta {
+	height: 350px;
+	width: 250px;
+	background-image: url(img/sad.jpg);
+	background-size: cover;
+	border-radius: 5%;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+}
+
+.carta.super{
+	display: flex;
+	height: 342px;
+	width: 245px;
+	background-image: url(img/hy.jpg);
+	background-size: cover;
+	border-radius: 5%;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+   
+
+}
+}
+
+
+@media (min-width: 1200px) {
+	 h1{
+	top: 10px;
+	color: #228;
+	position: absolute;
+	font-size: 8.5em;
+}
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: radial-gradient(rgb(228, 233, 236),rgb(94, 192, 245)) ;
+}
+
+.container.fondo{
+    color: ;
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(fondo.gif);
+	background-size: cover;
+}
+
+.carta {
+	height: 350px;
+	width: 250px;
+	background-image: url(img/sad.jpg);
+	background-size: cover;
+	border-radius: 5%;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+}
+
+.carta.super {
+	height: 342px;
+	width: 245px;
+	background-image: url(img/hy.jpg);
+	background-size: cover;
+	border-radius: 5%;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 38px 10px rgba(0,0,0,0.75);
+   
+
+}
+}
+
+
